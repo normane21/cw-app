@@ -222,7 +222,7 @@ apiRoutes.post('/v2/admin/login', function(req, res) {
         res.status(402).json({ message: 'Invalid Credentials!!!.', code: 10112 });
       }else{
         res.status(200).json({ 
-          'x-auth-key' : user,
+          'x_auth_key' : user,
           'message': 'User is authorized to use the admin panels',
          
 
