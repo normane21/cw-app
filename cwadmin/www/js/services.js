@@ -87,12 +87,12 @@ angular.module('starter.services', [])
                 return promise;
             };
             return promise;
-        }
+        },
 
-         /*
+        
         
         // Get All Officers
-        getallofficers: function (token,auth_key) {
+        getallofficers: function (token, auth_key) {
            
             var deferred = $q.defer(),
                 promise = deferred.promise;
@@ -103,8 +103,8 @@ angular.module('starter.services', [])
                     url: apiUrl +  '/api/v2/admin/all/officer',
                     method: "get",
                     headers: {                          
-                        'Authorization': token
-                        'x-auth-key': auth_key,
+                        'Authorization': token,
+                        'x-auth-key': auth_key
                       }
                     
                 })
@@ -130,9 +130,8 @@ angular.module('starter.services', [])
                 return promise;
             };
             return promise;
-        }
+        },
 
-        */
 
     }
 
